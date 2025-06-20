@@ -106,18 +106,18 @@ highlighted = [false,false,false,false,false];
 
 let playercords = [0,0]
 const images = {
-  1:"images/wall.png",
-  2:"images/box.png",
-  3:"images/Player-Left.png",
-  4:"images/goal.png",
-  11:"images/Player-Left.png",
-  12:"images/Player-Right.png",
-  13:"images/Player-Up.png",
-  14:"images/Player-Down.png",
-  21:"images/Player-Push-Left.png",
-  22:"images/Player-Push-Right.png",
-  23:"images/Player-Push-Up.png",
-  24:"images/Player-Push-Down.png"
+  1:"jammin45/Sokoban-Game/images/wall.png",
+  2:"jammin45/Sokoban-Game/images/box.png",
+  3:"jammin45/Sokoban-Game/images/Player-Left.png",
+  4:"jammin45/Sokoban-Game/images/goal.png",
+  11:"jammin45/Sokoban-Game/images/Player-Left.png",
+  12:"jammin45/Sokoban-Game/images/Player-Right.png",
+  13:"jammin45/Sokoban-Game/images/Player-Up.png",
+  14:"jammin45/Sokoban-Game/images/Player-Down.png",
+  21:"jammin45/Sokoban-Game/images/Player-Push-Left.png",
+  22:"jammin45/Sokoban-Game/images/Player-Push-Right.png",
+  23:"jammin45/Sokoban-Game/images/Player-Push-Up.png",
+  24:"jammin45/Sokoban-Game/images/Player-Push-Down.png"
 }
 const directions = {
   w:[-1,0,13],
@@ -200,7 +200,7 @@ document.addEventListener('keydown', function(event) {
         if (board[j][i]===2) {
           boxes += 1;
           if (fullboard[j][i]===4) {
-            addimage(i*50,j*50,50,'images/Box.png',true)
+            addimage(i*50,j*50,50,'jammin45/Sokoban-Game/images/Box.png',true)
             boxes -= 1;
           }
         }
