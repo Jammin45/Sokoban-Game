@@ -106,10 +106,10 @@ highlighted = [false,false,false,false,false];
 
 let playercords = [0,0]
 const images = {
-  1:"images/wall.png",
-  2:"images/box.png",
+  1:"images/Wall.png",
+  2:"images/Box.png",
   3:"images/Player-Left.png",
-  4:"images/goal.png",
+  4:"images/Goal.png",
   11:"images/Player-Left.png",
   12:"images/Player-Right.png",
   13:"images/Player-Up.png",
